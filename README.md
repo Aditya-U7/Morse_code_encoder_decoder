@@ -1,6 +1,6 @@
 # Morse_code_encoder_decoder
 
-This program encodes the following characters: letters (A to Z), digits(0-9) and punctuation symbols (, . ? : - ' " ( ) = + X @ ;) to Morse code.
+This program encodes the following characters: letters (A to Z), digits (0-9) and special characters (, . ? : - ' " ( ) = + X @ ;) to Morse code.
 
 It can also decodes the Morse code of the above characters back to the plain text.
 
