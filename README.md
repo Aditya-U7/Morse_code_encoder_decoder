@@ -6,13 +6,13 @@ It can also decodes the Morse code of the above characters back to the plain tex
 
 It first asks the user to select the conversion scheme: from Text to Morse or Morse to text.
 
-[!Screenshot](morse_code_output1.png)
+![Screenshot] (morse_code_output1.png)
 
 The program then reads the user input.
 
-[!Screenshot](morse_code_output2.png)
+![Screenshot] (morse_code_output2.png)
 
 Then performs the selected conversion on the input string.
 
-[!Screenshot](morse_code_output3.png)
+![Screenshot](morse_code_output3.png)
 
