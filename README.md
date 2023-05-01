@@ -14,5 +14,5 @@ The program then reads the user input.
 
 Then performs the selected conversion on the input string.
 
-![Screenshot]
+![Screenshot](morse_code_output3.png)
 
