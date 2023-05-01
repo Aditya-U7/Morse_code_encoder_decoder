@@ -2,7 +2,7 @@
 
 This program encodes the following characters: letters (A to Z), digits (0-9) and special characters (, . ? : - ' " ( ) = + X @ ;) to Morse code.
 
-It can also decodes the Morse code of the above characters back to the plain text.
+It can also decode the Morse code of the above characters back to the plain text.
 
 It first asks the user to select the conversion scheme: from Text to Morse or Morse to text.
 
