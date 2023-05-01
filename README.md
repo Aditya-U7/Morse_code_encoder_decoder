@@ -8,11 +8,17 @@ It first asks the user to select the conversion scheme: from Text to Morse or Mo
 
 ![Screenshot](morse_code_output1.png)
 
+![Screenshot](morse_code_output2.png)
+
 The program then reads the user input.
 
-![Screenshot](morse_code_output2.png)
+![Screenshot](morse_code_output3.png)
+
+![Screenshot](morse_code_output4.png)
 
 Then performs the selected conversion on the input string.
 
-![Screenshot](morse_code_output3.png)
+![Screenshot](morse_code_output5.png)
+
+![Screenshot](morse_code_output6.png)
 
