@@ -60,8 +60,8 @@ morse_to_punctuation = {
     '-.-.-.': ';',
     '---...': ':',
     '-....-': '-',
-    '.----.': ''',
-    '.-..-.': ''',
+    '.----.': "'",
+    '.-..-.': '"',
     '-...-': '=',
     '.-.-.': '+',
     '-.--.': '(',
@@ -136,7 +136,9 @@ def morse_code_encoder(text):
 
 
 def check_user_choice(user_choice):
-
+    
+    user_choice = user_choice.rstrip()
+    
     while True:
 
         if user_choice == 'mct' or user_choice == 'tmc':
