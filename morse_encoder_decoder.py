@@ -109,11 +109,11 @@ def morse_code_decoder(morse):
 def morse_code_encoder(text):
 
     if text.isspace():
-        return "Input string is empty."
+        return 'Input string is empty.'
 
     text = text.split(' ')
 
-    morse_code = ""
+    morse_code = ''
     
     for each_word in text:
 
