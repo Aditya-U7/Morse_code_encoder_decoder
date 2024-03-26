@@ -108,10 +108,13 @@ def morse_code_decoder(morse):
 
 def morse_code_encoder(text):
 
+    if text.isspace():
+        return "Input string is empty."
+
     text = text.split(' ')
 
-    morse_code = ''
-
+    morse_code = ""
+    
     for each_word in text:
 
         for character in each_word:
@@ -137,7 +140,7 @@ def morse_code_encoder(text):
 
 def check_user_choice(user_choice):
     
-    user_choice = user_choice.rstrip()
+    user_choice = user_choice.strip()
     
     while True:
 
@@ -174,13 +177,13 @@ if user_selected_scheme == 'mct':
 
     morse_code = input('\nEnter the Morse code:\n\n')
 
-    answer = morse_code_decoder(morse_code)
+    answer = morse_code_decoder(morse_code.strip())
 
 else:
 
     plain_text = input('\nEnter the text:\n\n')
 
-    answer = morse_code_encoder(plain_text.upper())
+    answer = morse_code_encoder(plain_text.upper().strip())
 
 print('\nFrom ', conversion_scheme[user_selected_scheme], ':\n', sep='')
 
